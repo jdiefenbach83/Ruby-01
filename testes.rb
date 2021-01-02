@@ -1,37 +1,18 @@
-chutes = [176, 100, 130, 150, 175]
-chutes[3] = 300
+treze = 13
+cinco = 5
+puts treze / cinco
+puts treze % cinco
+puts treze + cinco
+puts treze - cinco
+puts treze * cinco
 
-puts chutes[0]
-puts chutes[1]
-puts chutes[2]
-puts chutes[3]
-puts chutes[4]
+puts "\n"
 
-puts "\n\n"
-
-chutes = []
-
-chute = 176
-tentativa = 1
-chutes[tentativa - 1] = chute
-
-chute = 100
-chutes << chute
-
-chute = 130
-chutes << chute
-
-chute = 150
-chutes << chute
-
-chute = 175
-chutes << chute
-
-for chute in chutes
-    puts chute
-end
-
-nome = gets.strip
-puts "#{nome} tem #{nome.size} caracteres"
-#puts nome + " tem " + nome.size.to_s + " caracteres"
-puts nome[9]
+numero = 5
+numero += 1 # numero = numero + 1 = 6
+numero -= 1 # numero = numero - 1 = 5
+numero *= 2 # numero = numero * 2 = 10
+numero /= 4 # numero = numero / 4 = 2
+numero *=13 # numero = numero * 13 = 26
+numero %=10 # numero = numero % 10 = 6
+puts numero # numero = 6
